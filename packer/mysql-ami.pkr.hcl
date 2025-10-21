@@ -3,7 +3,7 @@ packer {
     amazon = {
       source  = "github.com/hashicorp/amazon"
       version = ">= 1.2.0"
-    }
+    
   }
 }
 
@@ -148,4 +148,5 @@ build {
       "sudo systemctl enable ${var.service_name}"
     ]
   }
+
 }
